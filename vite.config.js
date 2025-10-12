@@ -8,4 +8,11 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    // Add this server block
+    server: {
+        host: 'garixpert.local',
+        hmr: {
+            host: 'garixpert.local',
+        },
+    },
 });
