@@ -7,7 +7,7 @@
             <p class="text-xl text-gray-200 mb-8 max-w-2xl mx-auto animate-fade-in-up delay-200">
                 Reliable, affordable, and professional service you can trust. Get back on the road with confidence.
             </p>
-            <a href="/login" class="bg-blue-600 text-white font-bold px-10 py-4 rounded-full text-xl hover:bg-blue-700 transition-all duration-300 shadow-xl animate-scale-in">
+            <a href="/booking" class="bg-blue-600 text-white font-bold px-10 py-4 rounded-full text-xl hover:bg-blue-700 transition-all duration-300 shadow-xl animate-scale-in">
                 Schedule a Service Today
             </a>
         </div>
@@ -39,9 +39,9 @@
             <h2 class="text-4xl font-bold text-center mb-6">Exclusive Special Offers!</h2>
             <div class="text-center">
                 <p class="text-xl mb-4">New customer? Get a fantastic **20% discount** on your first full service!</p>
-                <p class="text-2xl font-mono bg-white text-blue-800 px-6 py-3 inline-block rounded-lg shadow-md mt-4 animate-pulse">
-                    Use Code: GARIEXPERT20
-                </p>
+                <a href="/booking" class="text-2xl font-mono bg-white text-blue-800 px-6 py-3 inline-block rounded-lg shadow-md mt-4 animate-pulse">
+                    Book Now
+                </a>
                 <p class="text-md mt-4 text-blue-100">Limited time offer. Terms and conditions apply.</p>
             </div>
         </section>

@@ -1,7 +1,7 @@
 <nav class="bg-white shadow-lg sticky top-0 z-50">
-    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <div class="container mx-auto px-6 py-0 flex justify-between items-center">
         <a href="/" class="font-bold text-2xl text-blue-600 flex items-center">
-            <img src="{{ asset('images/garixpert-logo.png') }}" alt="Garixpert Logo" class="h-8 mr-2">
+            <img src="{{ asset('images/garixpert-logo.png') }}" alt="Garixpert Logo" class="h-20 mr-2">
         </a>
         <div class="hidden md:flex space-x-6 items-center">
             <a href="/" class="text-gray-700 hover:text-blue-700 transition-colors duration-200 font-medium">Home</a>

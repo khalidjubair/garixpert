@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Mail; // <-- Add this at the top
+use App\Mail\NewBookingNotification; // <-- Add this at the top
 use Illuminate\Http\Request;
 use App\Models\Customer;
 use App\Models\Car;
@@ -122,6 +123,7 @@ class BookingController extends Controller
             $booking->services()->attach($servicesToAttach);
 
             DB::commit(); // All good, save the changes
+            Mail::to('garixpert@gmail.com')->send(new NewBookingNotification($booking));
 
             return redirect()->route('booking.create')->with('success', 'Your appointment has been successfully booked! We will contact you shortly to confirm.');
 
