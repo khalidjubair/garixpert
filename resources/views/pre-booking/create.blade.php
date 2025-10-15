@@ -1,11 +1,26 @@
 <x-app-layout>
     <x-slot name="header">
         <h1 class="text-center font-semibold text-3xl text-gray-800 leading-tight">
-            {{ __('Quick Pre-Booking') }}
+            {{ __('Become a Founding Member!') }}
         </h1>
-        <p class="text-center text-gray-600 mb-8 text-lg">{{ __('Leave your details and we\'ll call you back to schedule.') }}</p>
+        <p class="text-center text-gray-600 mb-8 text-lg">{{ __('To celebrate our launch in Khulna city, pre-book now to lock in an exclusive lifetime discount.') }}</p>
     </x-slot>
     <div class="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-2xl shadow-xl border border-gray-200">  
+
+        <div class="text-center mb-10">
+            <div class="mt-6 flex flex-col sm:flex-row justify-center items-center gap-6">
+                <div class="bg-blue-100 text-blue-800 p-4 rounded-lg text-center">
+                    <p class="text-3xl font-bold">50% OFF</p>
+                    <p class="font-medium">Your First At-Home Service</p>
+                </div>
+                <div class="text-2xl font-bold text-gray-400">+</div>
+                <div class="bg-green-100 text-green-800 p-4 rounded-lg text-center">
+                    <p class="text-3xl font-bold">10% OFF</p>
+                    <p class="font-medium">Every Future Service... For Life!</p>
+                </div>
+            </div>
+        </div>
+
         @if(session('success'))
             <div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 mb-6 rounded-md" role="alert">
                 <p class="font-bold text-lg">Thank You!</p>
